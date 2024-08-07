@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#titulo-menusuperior{
+    margin-left: 62px;
+    padding-top: 206px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#texto-menusuperior{
+    margin-left: 62px;
+    border-width: 1024px;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-image: url(imagens/fundo.menuinformacional.svg);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#empreendimentos{
+    width: 280px;
+    height: 55.18px;
+    margin-left: 130px;
+}
+
+#mercado{
+    width: 345px;
+    height: 55px;
+    margin-left: -60px;
+}
+
+#projetos{
+width: 340px;
+height: 55px;
+margin-left: -80px;
+}
+
+.icones{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+#segundomenuinformacional{
+    display: flex;
+    flex-flow: column;
+    columns: auto;
+}
+
+#titulo-segundomenu{
+    margin-top: 303px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    font-size: 32px;
+}
+
+#paragrafo-segundomenu{
+    margin-top: -60px;
+    margin-left: 90px;
+    margin-bottom: 120px;
+    font-size: 20px;
+    padding-bottom: -20px;
+}
+
+#imagem-casa{
+    margin-left: 746px;
+    margin-top: -500px;
+    margin-bottom: 70px;
+}
+
+#menuformulario{
+    background-image: url(imagens/fundo-menuformulario.svg);
+    text-align: center;
+}
+
+#tituloformulario{
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+input{
+    Width: 508px;
+    Height: 72px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+button{
+    background-color: #C07212;
+    Width: 286px;
+    Height: 74px;
+    color: #ffffff;
+    margin: 40px;
+    margin-bottom: 60px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bolder;
+    transform: translateY(7px)
+}
